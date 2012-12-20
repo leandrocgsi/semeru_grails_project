@@ -15,6 +15,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/semeru_grails_project"
+			//Url do meu banco local
         }
     }
     test {
